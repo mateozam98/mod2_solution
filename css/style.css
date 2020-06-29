@@ -1,0 +1,94 @@
+h1{
+	color: black;
+	text-align: center;
+	font-size: 42px;
+	text-shadow: 2px 1px 11px #666
+}
+.bg{
+	background-color: lightblue;
+	margin: 30px;
+	border: 1.2px solid black;
+	padding: 0px;
+	box-shadow: 5px 8px 10px #666;
+}
+.fg{
+	background-color: rgb(152,242,210);
+	margin-left: 80%;
+	border: 1.2px solid black;
+	padding: 0px;
+	text-align: center;
+}
+.bg2{
+	background-color: orange;
+	margin: 30px;
+	border: 1.2px solid black;
+	padding: 0px;
+	box-shadow: 5px 8px 10px #666;
+}
+.fg2{
+	background-color: rgb(242,42,110);
+	margin-left: 80%;
+	border: 1.2px solid black;
+	padding: 0px;
+	text-align: center;
+}
+.bg3{
+	background-color: green;
+	margin: 30px;
+	border: 1.2px solid black;
+	padding: 0px;
+	box-shadow: 5px 8px 10px #666;
+}
+.fg3{
+	background-color: rgb(125,12,180);
+	margin-left: 80%;
+	border: 1.2px solid black;
+	padding: 0px;
+	text-align: center;
+}
+p{
+	padding: 7px;
+}
+@media(min-width:  992px){
+.bg{
+	float: left;
+	width: 25%;
+}
+.bg2{
+	float: left;
+	width: 25%;
+}
+.bg3{
+	float: left;
+	width: 25%;
+}
+}
+@media(min-width: 768px) AND (max-width: 991px){
+.bg{
+	float: left;
+	width: 43%;
+	margin: 20px;
+}
+.bg2{
+	float: right;
+	width: 43%;
+	margin: 20px;
+}
+.bg3{
+	float: left;
+}
+}
+@media(max-width: 767px) {
+.bg{
+	position: relative;
+	float: none;
+}
+.bg2{
+	float: none;
+	position: relative;
+}
+.bg3{
+	float: none;
+	position: relative;
+}
+}
